@@ -1,6 +1,6 @@
 {
   "name": "denvmon",
-  "version": "1.0.1",
+  "version": "1.0.3",
   "main": "build/index.js",
   "scripts": {
     "dev": "tsx watch src/exemple.ts",

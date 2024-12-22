@@ -1,6 +1,6 @@
-# Denvmonmon
+# Denvmon
 
-**Denvmonmon** is a powerful utility for parsing environment variables using a class model structure. It leverages TypeScript decorators to define and validate environment variables based on their types.
+**Denvmon** is a powerful utility for parsing environment variables using a class model structure. It leverages TypeScript decorators to define and validate environment variables based on their types.
 
 ## Features
 
@@ -14,6 +14,14 @@ Install the package using npm or yarn:
 
 ```bash
 npm install denvmon
+```
+### `tsconfig.json`
+```ts
+{
+    "compilerOptions": {
+      "experimentalDecorators": true,
+    },
+}
 ```
 
 ## Usage
@@ -160,15 +168,3 @@ CUSTOM_BOOLEAN=yes
 ```
 
 The `custom_boolean` property in the class will then be set to `true` if the value is "yes" or `false` if the value is "no".
-
-tsconfig.json
-```ts
-{
-  ...
-    "compilerOptions": {
-      ...
-      "experimentalDecorators": true,
-    },
-  ...
-}
-```
