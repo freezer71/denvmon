@@ -1,0 +1,14 @@
+{
+    "compilerOptions": {
+        "outDir": "build",
+        "target": "ESNext",
+        "strict": true,
+        "module": "CommonJS",
+        "esModuleInterop": true,
+        "skipLibCheck": true,
+        "emitDecoratorMetadata": true,
+        "experimentalDecorators": true,
+        "declaration": true,
+    },
+    "include": ["src/**/*"]
+}
