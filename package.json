@@ -11,6 +11,7 @@
   "author": "freezer71",
   "license": "ISC",
   "description": "denvmon is a TypeScript library for parsing and validating environment variables using class models and decorators. It supports primitive types with customizable validation and default values for a robust configuration experience.",
+  "keywords": [],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/freezer71/denvmon.git"

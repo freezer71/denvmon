@@ -161,7 +161,14 @@ CUSTOM_BOOLEAN=yes
 
 The `custom_boolean` property in the class will then be set to `true` if the value is "yes" or `false` if the value is "no".
 
-## License
-
-This project is licensed under the MIT License.
-
+tsconfig.json
+```ts
+{
+  ...
+    "compilerOptions": {
+      ...
+      "experimentalDecorators": true,
+    },
+  ...
+}
+```
